@@ -1,0 +1,28 @@
+.main-content>h3 {
+  text-align: center;
+  margin: 3vw;
+}
+
+.trouver-section{
+  background-color: rgba(102,102,102,.8);
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
+.trouver-section>img{
+  width: 100%;
+}
+
+.trouver-section-lien{
+  margin:0;
+  background-color: white;
+  padding: 2vw;
+  font-size: 1vw;
+}
+
+.trouver-section-lien>a{
+  text-decoration: none;
+  color: black;
+}

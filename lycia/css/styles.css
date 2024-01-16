@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+.contact-form-container {
+  padding: 30px;
+  padding-bottom: 2.10vw;
+  border-radius: 0.25rem;
+  max-width: 60%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .contact-form-container {
+    padding: 30px;
+    padding-bottom: 2.10vw;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+.form-group {
+  margin-bottom: 1rem;
+
+}
+
+#contact-form {
+  border: 1px solid lightgray;
+  border-radius: 0.25rem;
+  padding: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.form-control {
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  outline: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  border: 1px solid #313131;
+}
+
+.form-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.form-credit {
+  padding-top: 10px;
+  font-size: 0.9rem;
+  color: #545b62;
+}
+
+.form-credit a {
+  color: #545b62;
+  text-decoration: underline;
+}
+
+.form-credit a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.btn {
+  font-weight: 400;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: green;
+  border-color: green;
+}
+
+.btn-primary:focus {
+  background-color: #0069d9;
+  border-color: #0062cc;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-block+.btn-block {
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,38 @@
+.PageNav>nav {
+  background-color: rgba(77, 83, 86, 0.8);
+  background: rgba(102, 102, 102, .8);
+  color: #e5e5e5;
+  font-size: 15px;
+  padding: 0.6vw;
+  padding-left: 20%;
+}
+
+.PageNav>nav>span {
+  padding-left: .3vw;
+  padding-right: .3vw;
+}
+
+.PageNav>nav>a {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-family: roboto, Arial, sans-serif;
+}
+
+.PageNav>nav>a:hover {
+  color: #FFF9F3;
+}
+
+.Titlenav {
+  background-color: rgb(242, 242, 242);
+  margin: 0;
+  align-items: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 20%;
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+
+.Titlenav>h1 {
+  font-weight: inherit;
+}

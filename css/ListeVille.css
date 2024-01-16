@@ -1,0 +1,41 @@
+.content-ville{
+  width: 60%;
+  margin-bottom: 10%;
+  margin-left: 20%;
+}
+
+strong{
+  font-size: 1.5vw;
+}
+
+p{
+  font-size: 1vw;
+  padding-right: 2vw;
+}
+
+h2 {
+  color: #0fa959;
+  font-size: 2vw;
+  margin-top: 5vw;
+  margin-bottom: 2vw;
+}
+
+h3{
+  margin: 10%;
+  margin-left: 2%;  
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  padding: 1vw;
+  margin: 1vw;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  user-select: none;
+}

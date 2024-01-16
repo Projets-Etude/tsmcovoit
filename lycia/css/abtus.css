@@ -1,0 +1,87 @@
+section>h1 {
+  border-bottom: 1px black solid;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 20px;
+}
+
+p {
+  padding-top: 10px;
+  padding-right: 20%;
+  opacity: 0.6;
+}
+
+.abtus>h2 {
+  margin-left: 25%;
+}
+
+.abtus:hover p {
+  animation: fadeoutColor 1s;
+  color: green;
+}
+
+@keyframes fadeoutColor {
+  from {
+    color: black;
+  }
+
+  to {
+    color: green;
+  }
+
+}
+
+.abtus p {
+  margin-left: 25%;
+  animation: inversefadeoutColor 1s;
+  color: black;
+}
+
+@keyframes inversefadeoutColor {
+  from {
+    color: green;
+  }
+
+  to {
+    color: black;
+  }
+
+}
+
+.abtus {
+  padding-bottom: 2%;
+}
+
+#team {
+  padding-bottom: 30%;
+  border-top: 1px #686b69 solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  background-color: #686b69;
+
+}
+
+#team1 {
+  margin-right: 15%;
+  margin-top: 15%;
+  position: absolute;
+}
+
+#team2 {
+  margin-top: 15%;
+  margin-left: 15%;
+  position: absolute;
+}
+
+#team3 {
+  margin-top: 20%;
+  padding-top: 20%;
+  position: absolute;
+}
+
+#team>img {
+  width: 10%;
+  border-radius: 5px;
+}

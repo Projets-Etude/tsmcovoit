@@ -1,0 +1,124 @@
+* {
+  font-family: "roboto", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body>nav {
+  display: grid;
+  grid-template-columns: 1fr 2fr repeat(4, 1fr) 3fr;
+  align-items: center;
+  background-color: #fff;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  body>nav {
+    grid-template-columns: auto auto repeat(6, 1fr) auto auto;
+    grid-gap: 10px; /* Remplacer 10vw par une valeur en pixels appropriée pour votre mise en page */
+    max-width: 100%;
+    overflow-x: hidden; /* Empêche l'apparition de la barre de défilement horizontale */
+  }
+}
+
+.login-img {
+  margin-left: 80%;
+  max-width: 100%;
+  height: 4vw;
+}
+
+.logo-button {
+  grid-column: 2;
+  justify-self: start;
+  text-decoration: none !important;
+}
+
+.nav-button {
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  text-decoration: none;
+  align-items: center;
+  color: #666;
+  justify-self: center;
+  flex-shrink: 0;
+}
+
+.logo-img {
+  max-height: 100px;
+  align-self: left;
+  object-fit: contain;
+}
+
+
+footer {
+  background: #e5e5e5;
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1.25rem;
+  padding-top: 3vw;
+  justify-content: space-around;
+
+}
+
+.nav-footer::after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #d9d9d9;
+  display: block;
+  bottom: 2vw;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 1.15rem;
+  color: #333;
+  text-decoration: none;
+  padding-bottom: 3vw;
+}
+
+.buttons {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 1vw;
+}
+
+.buttons>img {
+  flex-wrap: nowrap;
+}
+
+.buttons>p {
+  padding-left: 25vw;
+  color: #999;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.footer-button {
+  font-size: 0.8vw;
+  font-weight: 32.55vw;
+  text-decoration: underline;
+  color: #666;
+  max-width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-shrink: 0;  
+}
+
+.buttons>a:nth-child(n + 3){
+  border-left: solid 1px; 
+}

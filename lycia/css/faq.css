@@ -1,0 +1,77 @@
+/* Masquer la case à cocher */
+.toggle-input {
+  display: none;
+}
+
+.views-accordion-header {
+  /* border: 1px solid red; */
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.custom-accordion {
+  color: red;
+  border-bottom: 1px solid #D3D3D3;
+  border-top: 1px solid #D3D3D3;
+  /* width: 220%; */
+}
+
+/* Styles pour le contenu */
+.ui-accordion-content {
+  /* border: 1px solid blue; */
+  margin: 5px;
+  padding: 5px;
+  display: none;
+  background-color: #D3D3D3;
+  color: black;
+}
+
+.toggle-input {
+  height: 100%;
+}
+
+/* Afficher le contenu lorsqu'il est cliqué */
+.toggle-input:checked+.views-accordion-header+.ui-accordion-content {
+  display: block;
+}
+
+.toggle-input:checked+.custom-accordion>.field-content {
+  background-color: white;
+}
+
+.views-row {
+  width: 100%;
+}
+
+.animated-text {
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.ratio {
+  float: right;
+}
+
+.views-accordion-header {
+  width: 100%;
+}
+
+.animated-text:hover {
+  transform: translateX(5px);
+}
+
+.ratio {
+  transition: transform 0.5s ease-in-out;
+}
+
+.animated-text:hover>.ratio {
+  transform: rotate(180deg);
+}
+
+.title {
+  font-size: 24px;
+  color: #333;
+  text-decoration: underline;
+}

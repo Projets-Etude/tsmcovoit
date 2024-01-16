@@ -1,0 +1,54 @@
+.AdvancedSearch {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  border: solid 2px #999;
+  padding: 1vw;
+  padding-left: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.AdvancedSearch>label{
+  height: 1vw;
+  padding-left: 1vw;
+  margin-bottom: 0.5vw;
+}
+
+.AdvancedSearch>select, .AdvancedSearch>input {
+  font-size: 100%;
+  display: inline-block;
+  width: 80%;
+  margin-bottom: 0.5vw;
+  padding: 0.375rem 2rem 0.375rem 1rem;
+  line-height: 1.5;
+  color: #999;
+  vertical-align: middle;
+  background-size: 10px 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+
+.AdvancedSearch>a>img {
+  height: 1vw;
+  padding-left: 1vw;
+}
+
+.LocationSelect, .HoraireSelect, .NumberSelect, .LanguesSelect, .FumeurSelect, .SearchButton {
+  margin: 10px;
+}
+
+.SearchButton {
+  max-height: calc(2.25rem + 2px);
+  padding: 0.375rem 3rem 0.375rem 2rem;
+  margin-right: 10%;
+  display: inline-block;
+  vertical-align: middle;
+  align-self: center;
+  border: 1px solid #b32a2a;
+  border-radius: 10px;
+  background: #b32a2a;
+  color: white;
+  font-size: 0.8vw;
+  font-family: "roboto", sans-serif;
+}
